@@ -8,6 +8,9 @@
     },
     "targetJsonPath": {
       "type": "string"
+    },
+    "watch": {
+      "type": "boolean"
     }
   }
 }
