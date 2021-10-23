@@ -2,9 +2,13 @@
   "name": "cli-builders",
   "version": "1.0.0",
   "builders": "builders.json",
+  "scripts": {
+    "build": "npx tsc"
+  },
   "dependencies": {
     "@angular-devkit/architect": "~0.1200.0",
-    "@angular-devkit/core": "^12.0.0"
+    "@angular-devkit/core": "^12.0.0",
+    "@angular-devkit/build-angular": "~12.0.0"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
