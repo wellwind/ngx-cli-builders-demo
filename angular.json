@@ -98,6 +98,13 @@
             ],
             "scripts": []
           }
+        },
+        "generate-posts-json": {
+          "builder": "cli-builders:generate-posts-json",
+          "options": {
+            "markdownPostsPath": "src/assets",
+            "targetJsonPath": "src/assets/posts.json"
+          }
         }
       }
     }

@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "install:builders": "npm link builders",
+    "build:builders": "cd builders && npm run build",
+    "build:posts-json": "ng run ngx-cli-builders-demo:generate-posts-json"
   },
   "private": true,
   "dependencies": {
